@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1367327304244873176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1335926153210070, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_Name
+      value: The Purple guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 208.7392
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.617987
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -35.66743
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.11711921
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.99311787
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -166.548
+      objectReference: {fileID: 0}
+    - target: {fileID: 4815234061694394, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 95906694435743244, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4dae5d385589bf244a943c4a84a70ac7, type: 2}
+    - target: {fileID: 95906694435743244, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300389915045202945, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d85c7133bed91e74c82539b65a57b2fd, type: 2}
+    - target: {fileID: 6300389915045202945, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3758608097723073813, guid: d85c7133bed91e74c82539b65a57b2fd, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1335926153210070, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5296569648096388710}
+    - targetCorrespondingSourceObject: {fileID: 1335926153210070, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5044032702362056047}
+    - targetCorrespondingSourceObject: {fileID: 1335926153210070, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6299693158414883415}
+  m_SourcePrefab: {fileID: 100100000, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+--- !u!1 &1368258610084949774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1335926153210070, guid: c80917f8901134a6e80591aac0d2cc18, type: 3}
+  m_PrefabInstance: {fileID: 1367327304244873176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5296569648096388710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368258610084949774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b719e320fac4c40a9a7f88fe3c5705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstText: Press E.
+  monologue:
+  - '>:('
+  - Wait, someone already uses that emote.
+  - 
+  repeatingText: ):<
+  quest: 0
+  takeQuest: 0
+  endQest: 0
+  finishQuest: 0
+--- !u!135 &5044032702362056047
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368258610084949774}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.8
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6299693158414883415
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368258610084949774}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.48416921, y: 1.6029766, z: 0.48247212}
+  m_Center: {x: -0.020914847, y: 0.835083, z: -0.055068683}

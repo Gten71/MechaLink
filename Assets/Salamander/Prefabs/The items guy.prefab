@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2910090919109544437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1192987189843870, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_Name
+      value: The items guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.202362
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.89213
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.2400243
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9707669
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 152.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 4071063666350026, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432631423775039060, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d85c7133bed91e74c82539b65a57b2fd, type: 2}
+    - target: {fileID: 432631423775039060, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -3758608097723073813, guid: d85c7133bed91e74c82539b65a57b2fd, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1192987189843870, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1382623260123200587}
+    - targetCorrespondingSourceObject: {fileID: 1192987189843870, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5462297277833215976}
+    - targetCorrespondingSourceObject: {fileID: 1192987189843870, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1545688623876076252}
+    - targetCorrespondingSourceObject: {fileID: 1192987189843870, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3298423990418178332}
+  m_SourcePrefab: {fileID: 100100000, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+--- !u!1 &2911160745644351083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1192987189843870, guid: c323b3f200e234d6796cf76724cf872f, type: 3}
+  m_PrefabInstance: {fileID: 2910090919109544437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1382623260123200587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911160745644351083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b719e320fac4c40a9a7f88fe3c5705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstText: Press E.
+  monologue:
+  - I sure do hope i won't lose this coins again.
+  - That would be a disaster.
+  - Then again, i have you to help me out, right?
+  repeatingText: Have a nice day, sir!
+  quest: 0
+  takeQuest: 0
+  endQest: 0
+  finishQuest: 0
+--- !u!135 &5462297277833215976
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911160745644351083}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.8
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1545688623876076252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911160745644351083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27f29ac717d8f14dbfc5151cdf018a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Item Gatherer
+  description: I need to find coins scattered around.
+  tasks:
+  - Find where the coins are.
+  - Gather coins.
+  - 
+  - Get those coins back to the quest giver.Get those coins back to the quest giver.
+  doneQuests: 00000000
+  NpcText:
+  - 'Good day, sir! '
+  - I need you help finding my coins.
+  - You see, i was taking a stroll along the shore another day.
+  - And as i was walking, a vile creature jumped and tried to attack me!
+  - I ran so fast, that i lost my purse on the way back.
+  - Please, find these coins, and i will give some of the scrap i have.
+  endNPCText:
+  - Thank you so much, good sir!
+  - Here is your reward.
+  endNPC: {fileID: 1382623260123200587}
+  addTask: 0
+--- !u!65 &3298423990418178332
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911160745644351083}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.48416921, y: 1.6029766, z: 0.48247212}
+  m_Center: {x: -0.020914847, y: 0.835083, z: -0.055068683}

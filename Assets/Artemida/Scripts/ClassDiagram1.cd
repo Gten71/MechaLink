@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Jump">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkQAAgAAACAAAAAAAAQAIAAAAAKAAIABQAAABAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\Jump\Jump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobTrigger">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAgKAAAAAQEAAAAAACAAAAAYAAYAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\Mob\MobTrigger.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_blackScreen" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AirPet">
+    <Position X="7.5" Y="21.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABQAIAAEAAAhAAYAAAQgBSQBABAACIAFBQBoSMAAEAg=</HashCode>
+      <FileName>Assets\Artemida\Scripts\PetManager\AirPet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraRotation">
+    <Position X="51.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAgCAAgAABAAAAAAAAAEAAAABEAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\PetManager\CameraRotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FirePet">
+    <Position X="9.25" Y="22" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABQAIAAEACAhABYAAAQgBSQBABAACIAFBQBoSMAAUAg=</HashCode>
+      <FileName>Assets\Artemida\Scripts\PetManager\FirePet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetInfo">
+    <Position X="5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkQAAYAAAADAACAAAAAAEAAAAAAAAAAAAACAAAFgAEA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\PetManager\PetInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_airPet" />
+      <Field Name="_firePet" />
+      <Field Name="_waterPet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PetManagerInfo">
+    <Position X="14" Y="21.25" Width="1.5" />
+    <AssociationLine Name="_blackScreen" Type="ScreenFader">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.475" Y="0.098" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEgHAAACCAAQACAAQIAEQAAABAAACAAEAAABA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\PetManager\PetManagerInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_blackScreen" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScreenFader">
+    <Position X="17" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAAgAACCAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\PetManager\ScreenFader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterPet">
+    <Position X="11.25" Y="22" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABQAIAAEAAAhAAYAAAQgBSQBABAACIAFBQBoSMAAEAg=</HashCode>
+      <FileName>Assets\Artemida\Scripts\PetManager\WaterPet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackScreen">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIAAgAAAAIAAAAAAAABAAAAAAACAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\RevivalSystem\BlackScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CheckPointSystem">
+    <Position X="10" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAQAAAEAAAKAAAAAIAIRAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\RevivalSystem\CheckPointSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeathCollision">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\RevivalSystem\DeathCollision.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_blackScreen" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SoulsInfo">
+    <Position X="49.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\Souls\SoulsInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoulsManager">
+    <Position X="48" Y="10.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAACEEAQAAAAAAAAAAAAAgAIBQIAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\Souls\SoulsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EPickUp">
+    <Position X="24.75" Y="22" Width="1.5" />
+    <AssociationLine Name="selectQuest" Type="TakeQuest">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.066" Y="0.135" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAACAAAAAQAAAEAAAKAAAAAIAIYAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\TextTalk and Quests\Quests\Explore\EPickUp.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selectQuest" />
+      <Field Name="pickUp" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Explore">
+    <Position X="30.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAYAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\TextTalk and Quests\Quests\Explore\Explore.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selectQuest" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="KillEnemy">
+    <Position X="30.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAACAAAAAAAAAAAAAAAAAAIAAIMAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\TextTalk and Quests\Quests\Explore\KillEnemy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selectQuest" />
+      <Field Name="spawnEnemy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PickUp">
+    <Position X="22.25" Y="22.25" Width="1.5" />
+    <AssociationLine Name="selectQuest" Type="TakeQuest">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.159" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAACAADAAAAAAAAIAAIIAAAACAEAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\TextTalk and Quests\Quests\Explore\PickUp.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selectQuest" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TalkWithNPC">
+    <Position X="33.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAACAIAAAAAAAAAAAIAAAAIAAAIAAACAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\TextTalk and Quests\Quests\Explore\TalkWithNPC.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="selectQuest" />
+      <Field Name="talkNPC" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ShowNameTaskInGame">
+    <Position X="26.5" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\TextTalk and Quests\Quests\ShowTasks\ShowNameTaskInGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_showNameTaskInMenu" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ShowNameTaskInMenu">
+    <Position X="26.5" Y="21.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAwCJiAAAACAAAgkAAAACQQAAAgAQAIIAAQACAEFAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\TextTalk and Quests\Quests\ShowTasks\ShowNameTaskInMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TakeQuest">
+    <Position X="33.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQIABAACCAAAAAAIAAgAAAIAAAEAAgAAQBIDAAIAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\TextTalk and Quests\Quests\TakeQuest.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="endNPC" />
+      <Field Name="talkNPC" />
+      <Field Name="taskMenager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TalkNPC">
+    <Position X="36" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAACQIACAAAAAQAgAGAAAKCAAAAIAIQAAAgAABCAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\TextTalk and Quests\TalkNPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasMainGame">
+    <Position X="43.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAACAUAiAAAAAEAAhCAAAABAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\UI\CanvasMainGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="saveAndLoad" />
+      <Field Name="settingsWindows" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CanvaseMainMenu">
+    <Position X="49.75" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAACAAAAAAAAAABAAABABABAAAoAAAAAACAAg=</HashCode>
+      <FileName>Assets\Artemida\Scripts\UI\CanvasMainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanvasSettings">
+    <Position X="46.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAARCACBAAAAAEAAAQEEAgABAAEAAAAAoAACQA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\UI\CanvasSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FPSLimitController">
+    <Position X="44.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\UI\FPSLimitController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Health">
+    <Position X="40.25" Y="11.25" Width="1.5" />
+    <AssociationLine Name="pet" Type="PetsStats" ManuallyRouted="true">
+      <Path>
+        <Point X="41.5" Y="11.25" />
+        <Point X="41.5" Y="10.691" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.276" Y="0.202" Height="0.182" Width="0.633" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQBBCAAACAAAAAAAAgAAAAAAAAACAAAAAAAIAACAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\UI\Health.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ImageTransparency">
+    <Position X="39.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACCAQAAIQAQAAABAAAAAEAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\UI\ImageTransparency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Overheating">
+    <Position X="42.25" Y="11.25" Width="1.5" />
+    <AssociationLine Name="pet" Type="PetsStats" ManuallyRouted="true">
+      <Path>
+        <Point X="42.5" Y="11.25" />
+        <Point X="42.5" Y="10.691" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.708" Y="0.155" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>hAAAAAAAACAAgAAAAAgABAAAgAAEAAEJAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\UI\Overheating.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SaveAndLoad">
+    <Position X="48" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgIAAACAAAAIAAAgAEAAAAAAAAAAEAAgAgAAIAEA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\UI\SaveAndLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIHistory">
+    <Position X="42" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CARAAAAAACAAAAAEAAAAAAAAAAAkAAAAAAAAAgAAAgA=</HashCode>
+      <FileName>Assets\Artemida\Scripts\UI\UIHistory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_img" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ShaderHandler">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Artemida\ShaderPixel\ShaderHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnEnemy" Collapsed="true">
+    <Position X="30.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIgAAACAAAAAABAAEAAAAAQAAAAAIEAABA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\SpawnEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetsStats" Collapsed="true">
+    <Position X="41.25" Y="10" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PetsStats.ElementalType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Gten\Character\Scripts\PetsStats.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>UAABAAAgACgAAAAgAAAAIACIABEAQQAAAAIAgAAgAAE=</HashCode>
+      <FileName>Assets\Gten\Character\Scripts\PetsStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

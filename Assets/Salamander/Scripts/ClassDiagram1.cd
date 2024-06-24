@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CameraZoom" Collapsed="true">
+    <Position X="9" Y="7.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>CAQAQAAAACIAAAAEIAAAIAAAEAAAAAABAAAgQAAAAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\CameraZoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColliderAmbience" Collapsed="true">
+    <Position X="10.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\ColliderAmbience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColliderMusicChange" Collapsed="true">
+    <Position X="10.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAABAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\ColliderMusicChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FollowTarget" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAiAAAAAAAAAAIAAAAAAIAAMAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\Camera\FollowTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameData" Collapsed="true">
+    <Position X="6.5" Y="8" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAACRAAAIAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\Data\GameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataPersistenceManager" Collapsed="true">
+    <Position X="3" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IBAAEJAAAAgQAAACAAAgEQAgJBBAAAIIAGAAIAAACEE=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\DataPersistenceManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameData" />
+      <Field Name="dataHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameEventsManager" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAIAAABAACAAAAAAgAAAAEA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\Events\GameEventsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileDataHandler" Collapsed="true">
+    <Position X="6.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgKIAAAgAAABEAEAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\FileDataHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEBAAAAAAAISAgAABAAAAAEAAQAAEAAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\MainMenu\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAACAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\MainMenu\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveSlot" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAhCAQAAAAACAgAAAAAAAAAAAAAAAAAAIAAAEA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\MainMenu\SaveSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveSlotsMenu" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAQAAIAAAAAAIAAgAQAAEAAAAAAAAAEIAEA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\MainMenu\SaveSlotsMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coin" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAABAAAAAAAAAAAAAgAAAAFAAAAAAAAAAAAAAA0A=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\Objects\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerializableDictionary&lt;TKey, TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="8.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAIAAAAAAAAAAAAAABAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\SerializableTypes\SerializableDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CoinsCollectedText" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQBAAICECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\UI\CoinsCollectedText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeathCountText" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAIIAAEA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\UI\DeathCountText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovementModified" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAACAAAAAAAAAAgAAAAAAACAAAIAAAACAAAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\PlayerMovementModified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnEnemy" Collapsed="true">
+    <Position X="12.25" Y="8.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIgAAACAAAAAABAAEAAAAAQAAAAAIEAABA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\SpawnEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TutorialScript" Collapsed="true">
+    <Position X="9" Y="8.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAgAAAASAAAAAAAAAAIAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\TutorialScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IDataPersistence" Collapsed="true">
+    <Position X="6.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Salamander\Scripts\DataPersistence\IDataPersistence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
